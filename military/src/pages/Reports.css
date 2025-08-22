@@ -1,0 +1,27 @@
+.reports-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.reports-title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.charts-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap; /* in case screen is small */
+}
+
+.chart-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 600px;   /* increased size */
+  height: 480px;  /* ensures charts fit */
+}

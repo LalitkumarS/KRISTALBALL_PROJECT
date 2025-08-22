@@ -1,0 +1,81 @@
+.assignments-page {
+  padding: 20px;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 26px;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.assignment-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.assignment-form input {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 180px;
+  font-size: 14px;
+}
+
+.assignment-form button {
+  padding: 10px 20px;
+  background: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.assignment-form button:hover {
+  background: #27ae60;
+}
+
+.table-container {
+  overflow-x: auto; /* responsive */
+}
+
+.assignments-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.assignments-table th,
+.assignments-table td {
+  padding: 14px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.assignments-table thead {
+  background: #2c3e50;
+  color: white;
+}
+
+.assignments-table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.assignments-table tbody tr:hover {
+  background: #f1f7ff;
+}

@@ -1,0 +1,25 @@
+.asset-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.asset-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.asset-title {
+  font-size: 20px;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.asset-quantity {
+  font-size: 24px;
+  font-weight: bold;
+  color: #27ae60;
+}
